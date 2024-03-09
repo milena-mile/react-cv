@@ -1,0 +1,66 @@
+{
+  "asideInfo": {
+    "Contacts": {
+      "Email": {
+        "title": "elena.bakumenko92@gmail.com",
+        "icon": "mail.svg"
+      },
+      "Phone": {
+        "title": "+375(29)3835932",
+        "icon": "phone.svg"
+      },
+      "Address": {
+        "title": "Minsk, Belarus",
+        "icon": "address.svg",
+        "link": "https://www.google.com/maps/place/Minsk,+Minsk+Region/@53.8845271,27.4285647,11z/data=!3m1!4b1!4m6!3m5!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972!16zL20vMGRseGo?hl=en&entry=ttu"
+      }
+    },
+    "Social": {
+      "Instagram": {
+        "title": "@milena.senutich",
+        "icon": "insta.svg",
+        "link": "https://instagram.com/milena.senutich"
+      },
+      "Github": {
+        "title": "@milena-mile",
+        "icon": "github.svg",
+        "link": "https://github.com/milena-mile"
+      },
+      "Linkedin": {
+        "title": "@elena-bakumenko",
+        "icon": "linkedin.svg",
+        "link": "https://www.linkedin.com/in/elena-bakumenko-697a50157/"
+      }
+    }
+  },
+  "tools/skills": {
+    "HTML 5": {
+      "description": "Structural Design",
+      "image": "html5.svg"
+    },
+    "CSS 3": {
+      "description": "Style Design",
+      "image": "css3.svg"
+    },
+    "SASS/SCSS": {
+      "description": "Style Design",
+      "image": "sass.svg"
+    },
+    "JavaScript": {
+      "description": "Front End Development",
+      "image": "javascript.svg"
+    },
+    "TypeScript": {
+      "description": "Front End Development",
+      "image": "typescript.svg"
+    },
+    "WordPress": {
+      "description": "Web Development",
+      "image": "wordpress.svg"
+    },
+    "PHPStorm": {
+      "description": "Code Editor",
+      "image": "phpstorm.svg"
+    }
+  }
+}
