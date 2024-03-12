@@ -23,6 +23,10 @@
       grid-template: auto / 100%;
     }
 
+    @media (max-width: 400px) {
+      padding: 0 0 30px 20px;
+    }
+
     &:last-of-type {
       padding-bottom: 0;
     }

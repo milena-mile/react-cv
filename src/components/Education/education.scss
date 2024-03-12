@@ -5,7 +5,7 @@
   &_list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px 3.5%;
+    gap: max(15px, 1vw) 2%;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -16,11 +16,19 @@
     gap: 5px 20px;
     align-items: center;
     background: var(--background-color);
-    flex-basis: 31%;
+    width: 32%;
     padding: 30px;
 
+    @media (max-width: 750px) {
+      width: 49%;
+    }
+
     @media (max-width: 550px) {
-      flex-basis: 100%;
+      width: 100%;
+    }
+
+    @media (max-width: 550px) {
+      padding: 20px;
     }
   }
   &_icon-wrapper {
