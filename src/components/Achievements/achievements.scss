@@ -1,0 +1,115 @@
+@import "src/style/mixins";
+
+.b-achievements {
+
+  &_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_item {
+    display: grid;
+    grid-template: auto / max(250px, 30%) 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    position: relative;
+    padding: 0 0 40px 35px;
+
+    @media (max-width: 1100px) {
+      grid-template: auto / 200px 1fr;
+    }
+
+    @media (max-width: 550px) {
+      grid-template: auto / 100%;
+    }
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      background: #2E2E48;
+      border-radius: 50%;
+      position: absolute;
+      top: 5px;
+      left: 0;
+    }
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 2px;
+      height: calc(100% - 42px);
+      background: var(--background-color);
+      position: absolute;
+      top: 27px;
+      left: 3px;
+    }
+
+  }
+
+  &_info {
+    display: grid;
+    grid-template: auto / 50px 1fr;
+    gap: 10px 20px;
+  }
+
+  &_dates {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    @include smallText;
+    color: var(--main-color-text);
+  }
+
+  &_place {
+    @include smallText;
+    margin-left: 10px;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 15px;
+      margin: 0 5px -1px 0;
+      background: url('data:image/svg+xml,<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.52861 10.046C2.89176 9.50281 2.30146 8.90728 1.76388 8.26566C0.957143 7.30212 -0.000854047 5.86714 -0.000854047 4.49973C-0.0015691 3.07158 0.858442 1.78375 2.17787 1.2372C3.49729 0.690637 5.01606 0.99308 6.02545 2.00339C6.68922 2.66421 7.06105 3.56311 7.05809 4.49973C7.05809 5.86714 6.10007 7.30212 5.29334 8.26566C4.75576 8.90728 4.16546 9.50281 3.52861 10.046ZM3.52861 2.9871C2.9882 2.9871 2.48884 3.27541 2.21864 3.74342C1.94843 4.21142 1.94843 4.78803 2.21864 5.25604C2.48884 5.72405 2.9882 6.01236 3.52861 6.01236C4.36401 6.01236 5.04124 5.33513 5.04124 4.49973C5.04124 3.66433 4.36401 2.9871 3.52861 2.9871Z" fill="%2379819A"/></svg>') no-repeat 50% 50%;
+      background-size: cover;
+    }
+  }
+
+  &_icon-wrapper {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    height: 50px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &_position {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    @include descriptionText;
+  }
+
+  &_company {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    @include mainFont;
+    color: var(--dark-color-text);
+  }
+
+  &_description-list {
+    list-style-type: none;
+  }
+  &_description-item {
+    @include descriptionText;
+    color: var(--light-color-text);
+    margin-bottom: 10px;
+  }
+}

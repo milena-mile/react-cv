@@ -1,0 +1,50 @@
+@import "src/style/mixins";
+
+.b-tools {
+
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw 2%;
+    border-radius: 10px;
+    overflow: hidden;
+
+    @media (max-width: 550px) {
+      gap: 10px 3%;
+    }
+  }
+
+  &_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.5%;
+    padding: 20px;
+    background: var(--background-color);
+
+    @media (max-width: 550px) {
+      width: 48.5%;
+    }
+  }
+
+  &_icon-wrapper {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  &_title {
+    @include mainFont;
+    color: var(--dark-color-text);
+    margin: 15px 0 5px;
+  }
+
+  &_description {
+    @include smallText;
+    text-align: center;
+  }
+}

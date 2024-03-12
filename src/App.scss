@@ -1,0 +1,78 @@
+@import "src/style/mixins";
+
+#root {
+  display: grid;
+  grid-template: auto/max(27%, 440px) calc(100% - max(27%, 440px));
+
+  @media (max-width: 1100px) {
+    grid-template: auto / 100%;
+  }
+}
+
+ .p-main {
+   padding: 50px 50px 0 50px;
+
+   @media (max-width: 1300px) {
+     padding: 50px 30px 0 30px;
+   }
+
+   @media (max-width: 550px) {
+     padding-top: 30px;
+   }
+ }
+
+.p-section {
+  position: relative;
+  padding: 2px 0 50px 80px;
+
+  @media (max-width: 1300px) {
+    padding: 5px 0 50px 50px;
+  }
+  @media (max-width: 550px) {
+    padding: 3px 0 30px 40px;
+  }
+
+  &::before {
+    content:'';
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #5531A7 0%, #5531A7 20%, #fff 20%);
+    box-shadow: 0 5px 8px 5px rgba(0, 0, 0, 0.05), 0 0 1px 0 rgba(0, 0, 0, 0.05), inset 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @media (max-width: 550px) {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &::after {
+    content:'';
+    display: inline-block;
+    width: 2px;
+    height: calc(100% - 35px);
+    background: #E2E6EE;
+    position: absolute;
+    top: 35px;
+    left: 17px;
+
+    @media (max-width: 550px) {
+      height: calc(100% - 30px);
+      top: 30px;
+      left: 14px;
+    }
+  }
+
+  &_title {
+    @include titles;
+    margin-bottom: 50px;
+
+    @media (max-width: 550px) {
+      margin-bottom: 30px;
+    }
+  }
+}

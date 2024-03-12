@@ -1,0 +1,31 @@
+@mixin mainFont {
+  font-size: clamp(16px, 1.15vw, 23px);
+  line-height: clamp(19px, 1.4vw, 29px);
+  color: var(--main-color-text);
+  font-weight: 500;
+}
+
+@mixin smallText {
+  font-size: clamp(13px, 0.85vw, 16px);
+  color: var(--light-color-text);
+  font-weight: 400;
+}
+
+@mixin descriptionText {
+  font-size: clamp(16px, 1.15vw, 23px);
+  line-height: clamp(19px, 1.4vw, 29px);
+  color: var(--light-color-text);
+  font-weight: 400;
+}
+
+@mixin smallTitle {
+  font-size: clamp(15px, 1vw, 19px);
+  color: var(--light-color-text);
+  font-weight: 400;
+}
+
+@mixin titles {
+  font-size: clamp(21px, 1.7vw, 27px);
+  color: var(--dark-color-text);
+  font-weight: 500;
+}
