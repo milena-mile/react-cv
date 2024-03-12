@@ -34,6 +34,18 @@
     }
   },
   "tools/skills": {
+    "JavaScript": {
+      "description": "Front End Development",
+      "image": "javascript.svg"
+    },
+    "WordPress": {
+      "description": "Web Development",
+      "image": "wordpress.svg"
+    },
+    "TypeScript": {
+      "description": "Front End Development",
+      "image": "typescript.svg"
+    },
     "HTML 5": {
       "description": "Structural Design",
       "image": "html5.svg"
@@ -46,21 +58,13 @@
       "description": "Style Design",
       "image": "sass.svg"
     },
-    "JavaScript": {
-      "description": "Front End Development",
-      "image": "javascript.svg"
-    },
-    "TypeScript": {
-      "description": "Front End Development",
-      "image": "typescript.svg"
-    },
-    "WordPress": {
-      "description": "Web Development",
-      "image": "wordpress.svg"
-    },
     "PHPStorm": {
       "description": "Code Editor",
       "image": "phpstorm.svg"
+    },
+    "PHP": {
+      "description": "Back End Development",
+      "image": "php.svg"
     }
   }
 }
