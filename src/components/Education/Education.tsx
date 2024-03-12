@@ -8,7 +8,7 @@ const Education = (): ReactElement => {
             <div className="b-education_list">
                 <div className="b-education_item">
                     <div className="b-education_icon-wrapper">
-                        <img src="" className="b-education_icon" alt=""/>
+                        <img src="images/polessu.svg" className="b-education_icon" alt=""/>
                     </div>
                     <span className="b-education_title">PolesSU</span>
                     <span className="b-education_major">Banking and Finance</span>
