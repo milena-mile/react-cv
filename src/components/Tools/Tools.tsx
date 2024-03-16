@@ -1,6 +1,6 @@
 import "./tools.scss";
 import {ReactElement, useEffect, useState} from "react";
-import {State} from "../../types/types.tsx";
+import {State} from "../../types/types.ts";
 import CVServices from "../../services/CVServices.tsx";
 
 const Tools = (props: {dataLink: string}): ReactElement => {

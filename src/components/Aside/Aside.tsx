@@ -1,7 +1,7 @@
-import {useState, useEffect, ReactElement} from "react";
-import AsideItem from "../AsideItem/AsideItem.js";
+import {ReactElement, useEffect, useState} from "react";
 import CVServices from "../../services/CVServices.js";
-import {State} from "../../types/types.tsx";
+import {State} from "../../types/types.ts";
+import AsideItem from "../AsideItem/AsideItem.js";
 
 import "./aside.scss";
 

@@ -1,4 +1,4 @@
-import {State} from "../types/types.tsx";
+import {State} from "../types/types.ts";
 
 const CVServices = (props: string, category: string, stateFunc: (prevState: State) => void) => {
     fetch(props)

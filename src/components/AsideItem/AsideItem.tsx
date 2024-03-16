@@ -1,5 +1,5 @@
-import { ReactElement } from "react";
-import {AsideItemI} from "../../types/types.tsx";
+import {ReactElement} from "react";
+import {AsideItemI} from "../../types/types.ts";
 
 const AsideItem = (props: { [key: string]: AsideItemI }): ReactElement => {
     const {data} = props;

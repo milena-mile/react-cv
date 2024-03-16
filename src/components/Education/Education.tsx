@@ -1,5 +1,5 @@
-import "./education.scss";
 import {ReactElement} from "react";
+import "./education.scss";
 
 const Education = (): ReactElement => {
     return (
