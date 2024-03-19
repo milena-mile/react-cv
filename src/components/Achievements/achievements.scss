@@ -108,12 +108,10 @@
     color: var(--dark-color-text);
   }
 
-  &_description-list {
-    list-style-type: none;
-  }
-  &_description-item {
+  &_description {
     @include descriptionText;
     color: var(--light-color-text);
     margin-bottom: 10px;
+    white-space: pre-wrap;
   }
 }

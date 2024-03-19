@@ -23,7 +23,11 @@
     background: var(--background-color);
     padding: 30px;
 
-    @media (max-width: 720px) {
+    @media (max-width: 1220px) and (min-width: 1101px) {
+      width: 100%;
+    }
+
+    @media (max-width: 730px) {
       width: 100%;
     }
 

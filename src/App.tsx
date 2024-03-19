@@ -9,11 +9,11 @@ import './App.scss';
 function App() {
     return (
         <>
-            <Aside dataLink={"info.json"}/>
+            <Aside/>
             <section className="p-main">
                 <Education/>
                 <Achievements/>
-                <Tools dataLink={"info.json"}/>
+                <Tools/>
                 <Projects/>
                 <Certificates/>
             </section>

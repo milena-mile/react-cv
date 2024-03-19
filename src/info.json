@@ -1,0 +1,132 @@
+{
+  "asideInfo": {
+    "Contacts": {
+      "Email": {
+        "title": "elena.bakumenko92@gmail.com",
+        "icon": "mail.svg"
+      },
+      "Phone": {
+        "title": "+375(29)3835932",
+        "icon": "phone.svg"
+      },
+      "Address": {
+        "title": "Minsk, Belarus",
+        "icon": "address.svg",
+        "link": "https://www.google.com/maps/place/Minsk,+Minsk+Region/@53.8845271,27.4285647,11z/data=!3m1!4b1!4m6!3m5!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972!16zL20vMGRseGo?hl=en&entry=ttu"
+      }
+    },
+    "Social": {
+      "Instagram": {
+        "title": "@milena.senutich",
+        "icon": "insta.svg",
+        "link": "https://instagram.com/milena.senutich"
+      },
+      "Github": {
+        "title": "@milena-mile",
+        "icon": "github.svg",
+        "link": "https://github.com/milena-mile"
+      },
+      "Linkedin": {
+        "title": "@elena-bakumenko",
+        "icon": "linkedin.svg",
+        "link": "https://www.linkedin.com/in/elena-bakumenko-697a50157/"
+      }
+    },
+    "Languages": {
+      "Russian": {
+        "title": "Native",
+        "icon": "russian.svg"
+      },
+      "English": {
+        "title": "Intermediate",
+        "icon": "english.svg"
+      }
+    },
+    "Hobbies": {
+      "Travelling": {
+        "icon": "travelling.svg"
+      },
+      "Needlework": {
+        "icon": "needlework.svg"
+      },
+      "Drawing": {
+        "icon": "drawing.svg"
+      }
+    }
+  },
+  "education": {
+    "PolesSU": {
+      "major": "Banking and Finance",
+      "years": "2009-2013",
+      "icon": "polessu.svg"
+    },
+    "Kobezza.lab": {
+      "major": "Computer Science in Frontend",
+      "years": "2023",
+      "icon": "kobezza.svg"
+    }
+  },
+  "achievements": {
+    "Elevate Creative Group": {
+      "position": "Front-end developer",
+      "date": "Present - Jan 2020",
+      "place": "Online",
+      "description": "Developed custom WordPress themes from scratch using HTML, CSS, JavaScript, and PHP, ensuring cross-browser compatibility and adherence to web standards.\nImplemented e-commerce functionality using WooCommerce, including product listings, shopping cart customization (dynamic pricing, discount coupons, and product bundling), and payment gateway integration.\nCustomized and extended WordPress functionality through custom post types, taxonomies, and hooks to meet specific project requirements.\nImplemented multilingual websites using WordPress Multilingual Plugin (WPML) to cater to international audiences and expand client reach.",
+      "icon": "elevatecg.svg"
+    }
+  },
+  "projects": {
+    "Sacred Essentials": {
+      "description": "WooCommerce shop",
+      "link": "https://www.getsacred.com/",
+      "icon": "sacred.svg"
+    },
+    "Stellox": {
+      "description": "Multilingual corporate website",
+      "link": "https://stellox.com/",
+      "icon": "stellox.svg"
+    }
+  },
+  "certificates": {
+    "Kobezza.lab": {
+      "description": "Computer Science in Frontend",
+      "dates": "Apr 2023 - Oct 2023",
+      "icon": "kobezza.svg"
+    }
+  },
+  "tools/skills": {
+    "JavaScript": {
+      "description": "Front End Development",
+      "icon": "javascript.svg"
+    },
+    "WordPress": {
+      "description": "Web Development",
+      "icon": "wordpress.svg"
+    },
+    "TypeScript": {
+      "description": "Front End Development",
+      "icon": "typescript.svg"
+    },
+    "HTML 5": {
+      "description": "Structural Design",
+      "icon": "html5.svg"
+    },
+    "CSS 3": {
+      "description": "Style Design",
+      "icon": "css3.svg"
+    },
+    "SASS/SCSS": {
+      "description": "Style Design",
+      "icon": "sass.svg"
+    },
+    "PHPStorm": {
+      "description": "Code Editor",
+      "icon": "phpstorm.svg"
+    },
+    "PHP": {
+      "description": "Back End Development",
+      "icon": "php.svg"
+    }
+  }
+
+}
